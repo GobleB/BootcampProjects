@@ -29,7 +29,7 @@ class Person {
 
 }
 
-class Weapon extends Person {
+class Weapon {
 
 	public $damageAmount;
 
@@ -50,8 +50,8 @@ class Longsword extends Weapon {
 $Brian = new Person('Brian');
 $Jordan = new Person('Jordan');
 
-$crossbow = new Crossbow('Crossbow');
-$longsword = new Longsword('Longsword');
+$crossbow = new Crossbow();
+$longsword = new Longsword();
 
 //Simple print out of Brian below
 print_r($Brian);
